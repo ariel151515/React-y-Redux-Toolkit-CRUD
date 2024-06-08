@@ -27,7 +27,7 @@ function TasksList() {
         {tasks.map((task) => (
           <div className="bg-neutral-800 p-4 rounded-md" key={task.id}>
             <header className="flex justify-between">
-              <h3 className="text-lg font-bold">{task.title}</h3>
+              <h5 className="text-lg font-bold">{task.title}</h5>
               <div className="flex gap-x-2">
                 <Link
                   to={`/edit-task/${task.id}`}
